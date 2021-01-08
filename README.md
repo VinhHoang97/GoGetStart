@@ -1,2 +1,2 @@
 # GoGetStart
-My project in Golang
+My first project in Golang following the tutorial of DevMountain Bootcamp
