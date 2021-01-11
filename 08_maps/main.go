@@ -8,6 +8,8 @@ func main(){
 	email["NhatRau"] = "nhatrau@gmail.com"
 	email["NamRot"] = "namrot@gmail.com"
 
+	email = map[string]string{"bob": "bobmail", "sharon": "sharonmail"}
+
 	fmt.Println(email)
-	fmt.Println(email["NhatRau"])
+	fmt.Println(email["bob"])
 }
