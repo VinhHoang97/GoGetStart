@@ -1,0 +1,18 @@
+syntax = "proto3";
+package chat;
+//option go_package = "google.golang.org/protobuf/types/known/timestamppb";
+
+
+message MessageRequest {
+  string code = 1;
+}
+
+message MessageResp {
+  string code = 1;
+  int32 id = 2;
+  string data = 3;
+}
+
+service ChatService {
+  rpc SayHello(MessageRequest) returns (MessageResp) {}
+}
